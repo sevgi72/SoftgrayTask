@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([["50579"],{245506(n,r,e){e.r(r),e.d(r,{default:()=>s});var o=e(899427),t=e.n(o);function s({children:n}){return n(t())}},899427(n,r,e){n.exports={locale:"tr",i18nStrings:void 0,plural:e(421061)}},421061(n){n.exports=function(n){return 1!=+n}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-tr-LocaleDataLoader-6dcc11c3332ba4a9.mjs.map
