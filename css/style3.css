@@ -1,0 +1,97 @@
+body{
+    background-image: url(../images/painting-of-a-wall-with-a-brown-and-orange-background-the-wall-is-covered-in-a-textured-grainy-paint-that-gives-it-a-rustic-earthy-feel-the-colors-are-warm-and-inviting-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#card{
+    margin-top:40px;
+    margin-bottom:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction:column;
+    background-color: white;
+    width: 350px;
+    overflow:hidden;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24)
+
+   
+}
+.header img {
+    display: flex;
+    justify-content: center;
+    width:350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.desc{
+    text-align:center;
+    padding:0 25px;
+    min-height:120px; 
+}
+.info{
+    display:flex;
+    justify-content: space-around;
+    align-items:stretch;
+    gap: 5px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    width:350px;
+    margin-top:30px;
+    border-radius:0  0 20px 20px;
+
+}
+.info p{
+    margin:5px 0 0 0;
+    font-weight:bold;
+    font-size:12px;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+.info h4 , .info p{
+    margin:0;
+    padding-top:0;
+    padding-bottom:10px;
+}
+
+.date h5 {
+    margin-bottom: 0; 
+}
+
+
+.title h2 {
+    margin-top: 5px; 
+}
+.info h4{
+    margin:0;
+    font-size:18px;
+}
+
+.info .views {
+    border-left: 1px solid rgba(23, 21, 21, 0.3);
+    border-right: 1px solid rgba(21, 21, 21, 0.3);
+}
+.info > div {
+    flex: 1;  /* Her biri beraber yer tutur */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.footer{
+    margin-top:auto;
+}
