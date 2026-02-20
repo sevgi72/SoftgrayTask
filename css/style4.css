@@ -192,6 +192,87 @@ button{
 }
 .text p{
     font-size:18px;
-    padding:5% 0;
+    padding:2% 0;
     color:white;
+    margin-top:20px;
+
+}
+.text{
+    margin-left:-5px;
+}
+.text hr{
+    border: 1px solid #ff7200;
+    width: 270px;
+    margin-top: 20px;
+}
+.login-button{
+    margin-top:20px;
+    border:1 px solid #ff7200;
+    width:100px;
+    color:black;
+    font-weight: bold;
+}
+.login-button button {
+    background-color: #ff7200;
+    color: #fff;
+    width: 320px;
+    margin-left:-90px;
+    max-width: 280px;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.login-button button:hover {
+    background-color: #fff;
+    color: #ff7200;
+    transition: 0.3s;
+}
+.about{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 2%;
+    gap:7px;
+}
+.footer {
+    display: flex;       
+    justify-content: center;
+    gap: 15px;            
+    
+    margin-top: auto;      
+    padding-bottom: 10px;  
+}
+
+
+.footer i {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.footer i:hover {
+    color: #ff7200;       
+    transform: translateY(-3px); 
+}
+
+
+.about {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.about p, .about a {
+    font-size: 14px;
+}
+
+.text hr {
+    border: 0;
+    border-bottom: 1px solid #ff7200;
+    width: 270px;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
